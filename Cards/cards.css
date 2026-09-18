@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(26, 44, 44);
+}
+#cards{
+    margin: 100px auto;
+    position: relative;
+
+
+}
+
+#card1{
+    height: 450px;
+    width: 300px;
+    background-color: cyan;
+    border-radius: 4%;
+    position: absolute;
+    left: 9%;
+    padding: 20px;
+    
+
+
+}
+
+img{
+    height: 45%;
+    width: 100%;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+
+
+}
+
+#text1{
+    text-align: center;
+}
+
+#button1{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+    top: 25px;
+
+
+}
+h5{
+    color: white;
+    position: absolute;
+    top: -50%;
+    left: 15%;
+}
+
+
+
+#card2{
+    height: 450px;
+    width: 300px;
+    background-color:rgb(232, 204, 208);
+    border-radius: 4%;
+    position: absolute;
+    left: 37%;
+    padding: 20px;
+    
+
+
+}
+
+img{
+    height: 45%;
+    width: 100%;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+
+
+}
+
+
+#text2{
+    
+    text-align: center;
+}
+
+#h{
+    color: rgb(231, 46, 166);
+}
+
+#button2{
+    height: 30px;
+    width: 100px;
+    background-color:rgb(235, 59, 173);
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+    top: 25px;
+
+
+}
+h5{
+    color: white;
+    position: absolute;
+    top: -50%;
+    left: 15%;
+}
+
+
+
+#card3{
+    height: 450px;
+    width: 300px;
+    background-color: cyan;
+    border-radius: 4%;
+    position: absolute;
+    left: 65%;
+    padding: 20px;
+    
+
+
+}
+
+img{
+    height: 45%;
+    width: 100%;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+
+
+}
+
+#text3{
+    text-align: center;
+}
+
+#button3{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+    top: 25px;
+
+
+}
+h5{
+    color: white;
+    position: absolute;
+    top: -50%;
+    left: 15%;
+}
+
