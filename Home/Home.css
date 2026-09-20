@@ -1,0 +1,175 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+#navbar{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    z-index: 1000;
+}
+
+#navbar img{
+    width: 2%;
+    height: 35%;
+    position:absolute;
+    top: 20%;
+    left: 2%;
+
+}
+#title{
+    color: white;
+    position:absolute ;
+    top: 30%;
+    left: 5%;
+}
+
+#home{
+    color: white;
+    position:absolute ;
+    top: 42%;
+    left: 20%;
+
+}
+#properties{
+    color: white;
+    position:absolute ;
+    top: 42%;
+    left: 25%;
+}
+#about{
+    color: white;
+    position:absolute ;
+    top: 42%;
+    left: 32%;
+}
+
+
+#card{
+    width: 450px;
+    height: 600px;
+    /* border: 3px solid; */
+    position: relative;
+    margin: auto;
+    top: 120px;
+    
+
+}
+
+img{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 10px auto;
+
+}
+
+#image{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: auto;
+    /* border: 1px solid red; */
+    padding: 10px
+    
+}
+
+
+#price{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 37%;
+    left: 5%;
+    
+
+}
+
+h3{
+    color: white;
+    
+    position:relative;
+    top: 10%;
+    left: 20%;
+
+
+}
+
+#sale{
+    height: 5%;
+    width: 25%;
+    background-color: red;
+    border-radius: 5px;
+    position:absolute;
+    top: 5%;
+    left: 4%;
+   
+}
+
+#like{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(247, 244, 244);
+    border-radius: 100%;
+    position: absolute;
+    left: 91%;
+    top: 4%;
+    margin: auto;
+}
+
+.ri-poker-hearts-fill{
+    font-size: larger;
+    color: red;
+    position:absolute;
+    top: 27%;
+    left: 25%;
+}
+
+.ri-map-pin-3-fill{
+    color: red;
+}
+
+#text{
+    width: 300px;
+    height:200px;
+    /* border: 2px solid; */
+    position:relative;
+    padding: 8px;
+    top: -10px;
+    font-size: 19px;
+    line-height: 1.4;
+
+}
+
+h4{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 15%;
+}
+
+#details{
+    height: 15%;
+    width: 45%;
+    background-color: rgb(175, 3, 43);
+    border-radius: 5px;
+   
+    position:absolute;
+    top: 80%;
+
+   
+}
+
+
+#info{
+    height: 300px;
+    width: 1200px;
+    /* border: 2px solid black; */
+    padding: 80px;
+    position: relative;
+    top: 50px;
+
+}
