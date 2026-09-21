@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+<body>
+
+    <nav>
+        
+        <div>
+            <h1 id="name">Tech<span class="blue">Conf</span></h1>
+            <div id="grey">
+            <span id="g1">Home</span>
+            <span id="g2">Speakers</span>
+            <span id="g3">Schedule</span>
+            <span id="g4">Register</span>
+            </div>
+        </div>
+
+        <div id="button">
+            <span id="reg">Register Now</span>
+        </div>
+        
+    </nav>
+
+
+    <div id="heading">
+        <span id="reg1">REGISTER NOW</span>
+        <h1 id="head">Conference Registration</h1>
+        <span id="tag">Fill in the details below to secure your spot at Tech Conference 2026.</span>
+    </div>
+
+
+    <div id="cards">
+        <div id="card1">
+            <h2>Personal Informaton</h2>
+            <label >Full Name <span class="star">*</span></label><br>
+            <input id="input" type="text" placeholder="Enter your full name" >
+            <label >Email <span class="star">*</span></label><br>
+            <input id="input" type="email" placeholder="example@email.com">
+            <label >Phone <span class="star">*</span></label><br>
+            <input id="input" type="tel" placeholder="+91 98765 43210">
+            <label >Date of Birth <span class="star">*</span></label><br>
+            <input id="input" type="date" placeholder="">
+
+            <label >Gender <span class="star">*</span></label><br>
+            
+            <div class="radio">
+            <label>
+            <input id="e" type="radio" name="gender" value="male">
+             Male</label>
+            
+            <label>
+            <input id="e" type="radio" name="gender" value="female">
+            Female</label>
+            
+            <label>
+            <input id="e" type="radio" name="gender" value="other">
+            Other</label>
+            </div>
+            
+        </div>
+        <div id="card2">
+            <h2>Conference Preferences</h2>
+            <label>Ticket Type <span class="star">*</span></label>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="type">
+                    Student
+                </label>
+                <label>
+                    <input type="radio" name="type">
+                    Prffestional
+                </label>
+                <label>
+                    <input type="radio" name="type">
+                    VIP
+                </label>
+            </div ><br>
+            <label>Areas of Interest <span class="star">*</span></label><br>
+            <div class="checkbox">
+            <input type="checkbox">
+            <label>AI</label><br>
+            <input type="checkbox">
+            <label>Web Development</label><br>
+            <input type="checkbox">
+            <label>Cloud</label><br>
+            <input type="checkbox">
+            <label>Cyber Security</label><br>
+            <input type="checkbox">
+            <label>Data Science</label><br>
+            </div><br>
+
+            <h2>Workshop Selection</h2>
+            <label>Select Workshop <span class="star">*</span></label><br>
+            <select id="input">
+                <option>React Advance Patterns</option>
+                <option>Compitetive Coding</option>
+                <option>Open Source</option>
+                <option>Robotics</option>
+            </select>
+
+        </div>
+
+        <div id="card3">
+            <h2>Account Information</h2>
+            <label>Username <span class="star">*</span></label><br>
+            <input id="input" type="text" placeholder="Choose a username"><br>
+            <label>Password <span class="star">*</span></label><br>
+            <input id="input" type="password" ><br>
+            <label>Confirm Password <span class="star">*</span></label><br>
+            <input id="input" type="password" ><br>
+
+        </div>
+
+        <div id="card4">
+            <h2>Additional Information</h2><br>
+            <label>Why do you want to attend this conference?</label><br>
+            <textarea id="textarea" cols="38" rows="7" placeholder="Write your answer here..."></textarea>
+            <br><br>
+            <div class="checkbox" >
+            <input type="checkbox">
+            <label>I agree to the <span id="tac">terms and conditions </span><span class="star">*</span></label><br>
+            </div>
+
+            <div id="submit">
+            <span id="submit-text">Submit Registration</span>
+        </div>
+            
+        </div>
+    </div> 
+    
+</body>
+</html>
