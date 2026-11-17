@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+}
+
+#main{
+    height: 600px;
+    width: 500px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 50px;
+    border: 1px solid;
+    padding: 20px;
+    
+}
+
+
+#solar-panel{
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    margin: 5px auto;
+    margin-bottom: 15px;
+}
+
+input{
+    width: 90%;
+    height: 70px;
+    margin-left: 15px;
+    background-color: rgb(114, 157, 112);
+    border: none;
+    color: rgb(12, 12, 12);
+    font-size: 40px;
+    text-align: right;
+    padding: 5px;
+}
+
+button{
+    border-radius: 100%;
+    border: none;
+    background-color: grey;
+    color: white;
+    font-size: 27px;
+    
+}
+
+button:nth-child(19){
+    grid-row: span 2;
+}
+
+button:nth-child(1){
+    grid-column: span 2;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(5,80px);
+    grid-template-rows: repeat(5,65px);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+
+.symbol{
+    color: rgb(40, 40, 40);
+    font-weight: 900;
+}
