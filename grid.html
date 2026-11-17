@@ -1,0 +1,126 @@
+m<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            
+
+        }
+        #main{
+            height: 800px;
+            width: 100vw;
+            display: grid;
+            margin: 100px ;
+            grid-template-columns: repeat(4,300px);
+            grid-template-rows: repeat(10,300px);
+            grid-gap: 10px;
+            /* overflow: hidden; */
+
+        }
+        #main div{
+            /* border: 2px solid ; */
+            border-radius: 20px;
+            overflow: hidden;
+            
+            /* transition-duration: 200ms; */
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 18px;
+            object-fit: cover;
+            transition-duration: 200ms;
+        }
+        h2{
+            /* height: 100%; */
+            width: 100%;
+            margin-left: 20px;
+            position: relative;
+            top: -50px;
+            opacity: 0;
+            transition-duration: 200ms;
+            
+        }
+
+        #main div:hover{
+            img{
+            opacity: 0.5;
+            scale: 1.07;
+            }
+            h2{
+            opacity: 2;
+            top: -70px;
+        }
+
+            
+        }
+
+        #a{
+            grid-column: span 2;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Moments.</h1><br>
+    <div id="main">
+        <div id="a">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhNqeEjuDS4BmJ1XfDNHv1exUGaaMoHVFrnVtSqfpHCQ&s=10" alt="">
+            <h2>Image</h2>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEJAzu5aTrvg0yPTkww7slPkkHuIjxHKsxRnF6YOnvsQ&s=10" alt="">
+            <h2>Image</h2>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-Qr_tzqcmiG5dlCleVdoPj_d76OWn1etTfxB_qqXoA&s=10" alt="">
+            <h2>Image</h2>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ms4wxw3QzXk4gAuddD5MbiFemHCAQGhR_TEkc7MGhA&s=10" alt="">
+            <h2>Image</h2>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR8Lf_XMIGZBtayJpJNPFmmCALIgEqjfv2qj3bedJAQw&s=10" alt="">
+            <h2>Image</h2>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGi_mLszNhTmcWUf93FrV5nx_wjas_xMYX9wqUIDel2Q&s=10" alt="">
+            <h2>Image</h2>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQYNEs4rkPPf_eNc0kj-m8HJX8tZBVqylT3sQbyZcbAw&s=10" alt="">
+            <h2>Image</h2>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMb26HBU9J3LOKzN8BywaTqJeRtaTVgKKOq4FaMaH8zw&s=10" alt="">
+            <h2>Image</h2>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP8d-shDWEXvJNdo8D26PQkRhhx1tojsevj7t41AwMnA&sv" alt="">
+            <h2>Image</h2>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJfXNH2vWvn0sVCv-rUe8qPH2dZQZhL50vQTHOn52GGQ&s" alt="">
+            <h2>Image</h2>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCGk5MyKDUkCQvQZ__SCPRCu7cHQvF5HW5KzeJKqiTbg&s=10" alt="">
+            <h2>Image</h2>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGH-Jnrse8sTrTW-NJ34Vl3JxRvM0SRO9LMWacwXUfyg&s=10" alt="">
+            <h2>Image</h2>
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>

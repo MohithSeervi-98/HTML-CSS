@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            
+        }
+        
+
+        
+        #main{
+            height: 1000px;
+            width: 80vw;
+            margin: 100px auto;
+            /* border: 2px solid red; */
+            display: grid;
+            grid-template-columns: repeat(3 ,400px);
+            grid-template-rows: repeat(6, 250px);
+            grid-gap: 15px;
+        }
+        #main div{
+            border: 2px solid;
+            border-radius: 20px;
+            overflow: hidden;
+
+        }
+        img{
+            height: 100%;
+            width: 100%;
+            border-radius: 18px;
+            object-fit: cover;
+            transition-duration: 200ms;
+        }
+        h2{
+            color: rgb(255, 153, 0);
+            position: relative;
+            top: -60px;
+            margin-left: 10px;
+            opacity: 0;
+            transition-duration: 200ms;
+        }
+
+        #main div:hover{
+            img{
+            opacity: 0.7;
+            scale: 1.09;
+            }
+            h2{
+            opacity: 2;
+            top: -70px;
+            }
+        } 
+
+
+        .a:nth-child(3){
+            grid-row: span 2;
+        }
+
+        .a:nth-child(5){
+            grid-row: span 2;
+        }
+
+        .a:nth-child(6){
+            grid-row: span 2;
+        }
+
+        .a:nth-child(8){
+            grid-row: span 2;
+        }
+
+        .a:nth-child(11){
+            grid-row: span 2;
+        }
+
+        #heading{
+            height: 50px;
+            background-color: bisque;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+            
+        }
+
+        
+    </style>
+   
+</head>
+<body>
+
+     <div id="heading"><h1><b>Picture Display</b></h1></div>
+    <div id="main">
+        <div class="a">
+            <a href="https://unsplash.com/photos/a-white-race-car-on-a-black-background-2in-hnX-eJ8" target="_blank"><img src="https://plus.unsplash.com/premium_photo-1677993186547-86e4c4292c3a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZjF8ZW58MHx8MHx8fDA%3D" alt=""></a>
+            <h2>MotorSport</h2>
+        </div>
+        <div class="a">
+            <a href=""><img src="https://images.unsplash.com/photo-1742744652734-d5ec6598b5da?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZjF8ZW58MHx8MHx8fDA%3D" alt=""></a>
+            <h2>MotorSport</h2>
+        </div>
+        <div class="a">
+            <a href=""><img src="https://images.unsplash.com/photo-1773142181818-5842662aea51?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZjF8ZW58MHx8MHx8fDA%3D" alt=""></a>
+            <h2>MotorSport</h2>
+        </div>
+        <div class="a">
+            <a href=""><img src="https://images.unsplash.com/photo-1698753047029-05b3011609b7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt=""></a>
+            <h2>MotorSport</h2>
+        </div>
+        <div class="a">
+            <a href=""><img src="https://plus.unsplash.com/premium_photo-1677993185885-985af6b425c4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt=""></a>
+            <h2>MotorSport</h2>
+        </div>
+        <div class="a">
+            <a href=""><img src="https://images.unsplash.com/photo-1779885529717-952eb9a81849?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt=""></a>
+            <h2>MotorSport</h2>
+        </div>
+        <div class="a">
+            <a href=""><img src="https://images.unsplash.com/photo-1699138346782-8a8b211c3da2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt=""></a>
+            <h2>MotorSport</h2>
+        </div>
+        <div class="a">
+            <a href=""><img src="https://images.unsplash.com/photo-1659203206829-218b9b5930e5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt=""></a>
+            <h2>MotorSport</h2>
+        </div>
+        <div class="a">
+            <a href=""><img src="https://images.unsplash.com/photo-1767655181607-c663d3e292fe?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt=""></a>
+            <h2>MotorSport</h2>
+        </div>
+        <div class="a">
+            <a href=""><img src="https://images.unsplash.com/photo-1700770956485-87150c75ad65?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt=""></a>
+            <h2>MotorSport</h2>
+        </div>
+        <div class="a">
+            <a href=""><img src="https://plus.unsplash.com/premium_photo-1677993185892-f7823f314c4c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt=""></a>
+            <h2>MotorSport</h2>
+        </div>
+        <div class="a">
+            <a href=""><img src="https://images.unsplash.com/photo-1710553859743-f01ec8c9af2b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt=""></a>
+            <h2>MotorSport</h2>
+        </div>
+        <div class="a">
+            <a href=""><img src="https://images.unsplash.com/photo-1673250667524-8566063b79e6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" alt=""></a>
+            <h2>MotorSport</h2>
+        </div>
+
+    </div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            height: 200px;
+            width: 75vw;
+            background-color: black;
+            border: 20px solid ;
+            margin: 100px auto;
+            display: flex;
+            overflow: hidden;
+            /* overflow-x: auto; */
+        }
+
+        .track{
+            display: flex;
+            
+            width:max-content;
+            animation: move  12s linear infinite; 
+
+        }
+
+        .track:hover{
+            animation-play-state: paused;
+        }
+
+        .group{
+           
+            display: flex;
+            gap: 20px;
+            padding-right: 20px;
+        }
+
+        .card{
+            width: 200px;
+            height: 100%;
+            background: linear-gradient(to right , red , green , blue);
+            
+            display: flex;
+            justify-content: center;
+            padding-top: 10px;
+
+        }
+
+        @keyframes move{
+            from{
+                transform: translateX(0%);
+            }
+            to{
+                transform: translateX(-50%);
+            }
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="track">
+        <div class="group">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        </div>
+        <div class="group">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        </div>
+        </div>
+    </div>
+    
+</body>
+</html>
