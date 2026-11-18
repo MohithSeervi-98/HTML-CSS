@@ -1,0 +1,62 @@
+body{
+    background-color: darkblue;
+    
+}
+
+h1{
+    color: aqua;
+    margin-left: 40%;
+}
+
+
+#kit{
+    display: grid;
+    grid-template-columns: repeat(5,200px);
+    grid-template-rows: repeat(2,200px);
+    gap: 30px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+
+
+.drum:nth-child(1){
+   background-image: url(./images/Bass-Drum.png); 
+   
+}
+
+.drum:nth-child(2){
+   background-image: url(./images/Snare.png); 
+}
+
+.drum:nth-child(3){
+   background-image: url(./images/High-Tom.png); 
+}
+
+.drum:nth-child(4){
+   background-image: url(./images/Mid-Tom.png); 
+}
+
+.drum:nth-child(5){
+   background-image: url(./images/Floor-Tom.png); 
+}
+
+.drum:nth-child(6){
+   background-image: url(./images/Hi-Hat-Closed.png); 
+}
+
+.drum:nth-child(7){
+   background-image: url(./images/Hi-Hat-Opened.png); 
+}
+
+.drum:nth-child(8){
+   background-image: url(./images/Crash-Cymbal.png); 
+}
+
+.drum:nth-child(9){
+   background-image: url(./images/Ride-Cymbal.png); 
+}
+
+.drum:nth-child(10){
+   background-image: url(./images/Splash-Cymbal.png); 
+}
