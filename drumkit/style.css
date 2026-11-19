@@ -22,41 +22,62 @@ h1{
 
 .drum:nth-child(1){
    background-image: url(./images/Bass-Drum.png); 
+   background-position: center;
+   background-size: contain;
+   
    
 }
 
 .drum:nth-child(2){
    background-image: url(./images/Snare.png); 
+   background-position: center;
+   background-size: contain;
 }
 
 .drum:nth-child(3){
    background-image: url(./images/High-Tom.png); 
+   background-position: center;
+   background-size: contain;
 }
 
 .drum:nth-child(4){
    background-image: url(./images/Mid-Tom.png); 
+   background-position: center;
+   background-size: contain;
 }
 
 .drum:nth-child(5){
    background-image: url(./images/Floor-Tom.png); 
+   background-position: center;
+   background-size: contain;
 }
 
 .drum:nth-child(6){
    background-image: url(./images/Hi-Hat-Closed.png); 
+   background-position: center;
+   background-size: contain;
 }
 
 .drum:nth-child(7){
    background-image: url(./images/Hi-Hat-Opened.png); 
+   background-position: center;
+   background-size: contain;
 }
 
 .drum:nth-child(8){
    background-image: url(./images/Crash-Cymbal.png); 
+   background-position: center;
+   background-size: contain;
 }
 
 .drum:nth-child(9){
    background-image: url(./images/Ride-Cymbal.png); 
+   background-position: center;
+   background-size: contain;
 }
 
 .drum:nth-child(10){
    background-image: url(./images/Splash-Cymbal.png); 
+   background-position: center;
+   background-size: contain;
 }
